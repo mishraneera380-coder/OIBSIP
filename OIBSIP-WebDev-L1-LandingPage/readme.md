@@ -20,9 +20,9 @@ The goal is to design a visually polished and responsive landing page for a prod
 
 ## Folder Structure
 OIBSIP-WebDevelopment&Designing-Level1-LandingPage/
-- index.html
+- Readme.md
+- index.html 
 - style.css
-- README.md
 - gurll.jpg
 - abt.jpg
 
