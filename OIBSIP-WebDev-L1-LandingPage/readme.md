@@ -36,7 +36,6 @@ OIBSIP-WebDevelopment&Designing-Level1-LandingPage/
 - [x] Clean typography & spacing  
 
 ## Preview
-https://mishraneera380-coder.github.io/OIBSIP/
 
 ## Inspiration
 - Layout ideas from **Dribbble** and **Awwwards**  
@@ -44,5 +43,5 @@ https://mishraneera380-coder.github.io/OIBSIP/
 
 ---
 **Internship Track:** Web Development & Designing  
-**Organization:** Oasis Infobyte (OIBSIP) 
+**Organization:** Oasis Infobyte (OIBSIP)    
 **Task Deadline:** September 15, 2026
