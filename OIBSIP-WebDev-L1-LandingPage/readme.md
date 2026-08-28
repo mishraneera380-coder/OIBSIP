@@ -36,7 +36,7 @@ OIBSIP-WebDevelopment&Designing-Level1-LandingPage/
 - [x] Clean typography & spacing  
 
 ## Preview
-https://mishraneera380-coder.github.io/OIBSIP/
+
 
 ## Inspiration
 - Layout ideas from **Dribbble** and **Awwwards**  
