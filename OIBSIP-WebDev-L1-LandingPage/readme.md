@@ -20,9 +20,9 @@ The goal is to design a visually polished and responsive landing page for a prod
 
 ## Folder Structure
 OIBSIP-WebDevelopment&Designing-Level1-LandingPage/
-- index.html
+- readme.md
+- index.html 
 - style.css
-- README.md
 - gurll.jpg
 - abt.jpg
 
@@ -36,7 +36,10 @@ OIBSIP-WebDevelopment&Designing-Level1-LandingPage/
 - [x] Clean typography & spacing  
 
 ## Preview
+<<<<<<< HEAD
 
+=======
+>>>>>>> b58d1e896a416977e7c1a82cb66b4827cee20de2
 
 ## Inspiration
 - Layout ideas from **Dribbble** and **Awwwards**  
@@ -44,5 +47,5 @@ OIBSIP-WebDevelopment&Designing-Level1-LandingPage/
 
 ---
 **Internship Track:** Web Development & Designing  
-**Organization:** Oasis Infobyte (OIBSIP) 
+**Organization:** Oasis Infobyte (OIBSIP)    
 **Task Deadline:** September 15, 2026
