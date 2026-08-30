@@ -106,13 +106,20 @@
     transition:background .2s ease, transform .2s ease;
     white-space:nowrap;
   }
-  .nav-cta:hover{ background:#f3b95c; transform:translateY(-1px); }
+  .nav-cta:hover{ 
+    background:#fefefd; 
+    transform:translateY(-1px); }
 
   .menu-toggle{
     display:none; flex-direction:column; gap:5px;
     background:none; border:none; cursor:pointer;
   }
-  .menu-toggle span{ width:24px; height:2px; background:#f2ede1; display:block; }
+  .menu-toggle span{ 
+    width:24px;
+    height:2px; 
+    background:#f2ede1; 
+    display:block; 
+  }
 
   /* ===== HERO ===== */
   .hero{
@@ -188,7 +195,7 @@
     display:inline-block;
   }
   .btn-solid{ background:var(--mustard); color:var(--navy); font-weight:500; }
-  .btn-solid:hover{ background:#f3b95c; transform:translateY(-2px); }
+  .btn-solid:hover{ background:#f9f8f7; transform:translateY(-2px); }
   .btn-ghost{ border:1px solid rgba(242,237,225,0.3); color:#f2ede1; }
   .btn-ghost:hover{ border-color:var(--mustard); color:var(--mustard); transform:translateY(-2px); }
 
