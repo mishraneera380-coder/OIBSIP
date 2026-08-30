@@ -1,15 +1,19 @@
 :root{
-    --navy:#243642;        /* Deep teal navy for structure */
-    --navy-soft:#5C8374;   /* Muted sage green for secondary elements */
-    --paper:#F5F5DC;       /* Soft beige background for warmth */
-    --paper-alt:#EAE7DC;   /* Slightly darker beige for sections */
-    --ink:#1A1A1A;         /* Strong ink for text */
-    --ink-soft:#6D6875;    /* Muted gray‑violet for subtle text */
-    --mustard:#E9C46A;     /* Warm mustard accent for CTAs */
-    --coral:#E76F51;       /* Earthy coral for highlights/alerts */
-    --line: rgba(36,54,66,0.12); /* Divider line with teal tone */
+    --navy:#0A0A0A;        /* Pure black base */
+    --navy-soft:#1A1A1A;   /* Charcoal black for sections/cards */
+    --paper:#121212;       /* Dark paper tone for background */
+    --paper-alt:#1E1E1E;   /* Slightly lighter alt background */
+    --ink:#F5F5F5;         /* Light ink for main text */
+    --ink-soft:#B0B0B0;    /* Muted gray for secondary text */
+    --mustard:#8B0000;     /* Deep dark red accent (replacing green) */
+    --coral:#B22222;       /* Strong crimson red for highlights/buttons */
+    --line: rgba(255,0,0,0.12); /* Subtle red‑tinted divider lines */
     --line-light: rgba(255,255,255,0.12); /* Light divider for dark mode */
 }
+
+
+
+
 
 
 /* :root{
