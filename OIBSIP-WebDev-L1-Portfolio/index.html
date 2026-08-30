@@ -4,11 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <nav class="navbar"></nav>
+        <div class="nav-inner">
+            <a href="#home" class="brand"><span class="dot"></span>Samikshya</a>
+            <nav class="links" id="navLinks">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#Projects" class="nav-link">Projects</a>
+            </nav>
+            <a href="#contact" class="nav-cta desktop-only">Get in Touch</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
     </header>
+
+    <section class="hero" id="home">
+        <div class="wrap">
+            <div class="hero-text">
+                <span class="badge"><span class="pulse"></span>Available for freelance work</span>
+                <h1>Hi, I'm <span>Samikshya Mishra.</span></h1>
+                <div class="role-line mono"><span id="typedRole">Frontend Developer</span><span class="cursor"></span></div>
+                <p class="lede">I turn sketches into smooth interfaces and code into responsive frontends. Currently diving into MERN stack to bridge design and development seamlessly.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-solid"> View projects </a>
+                    <a href="#" class="btn btn-ghost">Download Resume</a>
+                </div>
+            </div>
+            <div class="avatar-frame">
+                <div class="frame-box">
+                    <span class="corner tl"></span><span class="corner tr"></span>
+                    <span class="corner bl"></span> <span class="corner br"></span>
+                    <div class="avatar-circle">SM</div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
