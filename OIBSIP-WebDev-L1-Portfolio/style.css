@@ -11,59 +11,77 @@
     --line-light: rgba(255,255,255,0.12); /* Light divider for dark mode */
 }
 
-
-
-
-
-
-/* :root{
-    --navy:#2F2F2F;
-    --navy-soft:#E07A5F;
-    --paper:#f2ede1;
-    --paper-alt:#e9e2d2;
-    --ink:#1c1c1c;
-    --ink-soft:#5c5648;
-    --mustard:#87CEEB;
-    --coral:#d1495b;
-    --line: rgba(16,25,43,0.12);
-    --line-light: rgba(255,255,255,0.12);
-  } */
-
-  *{ margin:0; padding:0; box-sizing:border-box; }
-  html{ scroll-behavior:smooth; scroll-padding-top:76px; }
+  *{ 
+    margin:0;
+     padding:0; 
+     box-sizing:border-box;
+     }
+  html{
+     scroll-behavior:smooth;
+      scroll-padding-top:76px;
+     }
   body{
     font-family:'Inter', sans-serif;
     background:var(--paper);
     color:var(--ink);
     overflow-x:hidden;
   }
-  h1,h2,h3{ font-family:'Space Grotesk', sans-serif; }
-  .mono{ font-family:'IBM Plex Mono', monospace; }
-  a{ text-decoration:none; color:inherit; }
-  ul{ list-style:none; }
-
-  .wrap{ max-width:1180px; margin:0 auto; padding:0 40px; }
+  h1,h2,h3{ 
+    font-family:'Space Grotesk', sans-serif;
+ }
+  .mono{
+     font-family:'IBM Plex Mono', monospace; 
+    }
+  a{ 
+    text-decoration:none;
+     color:inherit;
+     }
+  ul{ 
+    list-style:none; 
+}
+  .wrap{
+     max-width:1180px;
+      margin:0 auto;
+       padding:0 40px; 
+    }
 
   /* ===== NAV ===== */
   header{
-    position:sticky; top:0; z-index:100;
+    position:sticky;
+     top:0;
+      z-index:100;
     background:var(--navy);
     border-bottom:1px solid var(--line-light);
   }
   .nav-inner{
-    display:flex; align-items:center; justify-content:space-between;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
     padding:18px 40px;
-    max-width:1180px; margin:0 auto;
+    max-width:1180px;
+     margin:0 auto;
   }
   .brand{
     font-family:'Space Grotesk', sans-serif;
-    font-weight:700; font-size:1.3rem;
+    font-weight:700;
+    font-size:1.3rem;
     color:#f2ede1;
-    display:flex; align-items:center; gap:8px;
+    display:flex;
+    align-items:center;
+    gap:8px;
   }
-  .brand .dot{ width:8px; height:8px; border-radius:50%; background:var(--mustard); display:inline-block; }
+  .brand .dot{
+     width:8px; 
+     height:8px; 
+     border-radius:50%; 
+     background:var(--mustard); 
+     display:inline-block; 
+    }
 
-  nav.links{ display:flex; gap:8px; }
+  nav.links{
+     display:flex;
+      gap:8px; 
+    }
   nav.links a{
     font-family:'IBM Plex Mono', monospace;
     font-size:0.86rem;
