@@ -90,11 +90,11 @@ header{
   color: var(--pink-deep);
 }
 
-nav .links{
+.links{
   display: flex;
   gap: 6px;
 }
-nav .links a{
+.links a{
   font-size: 0.98rem;
   font-weight: 2rem;
   color: var(--pink-deep);
@@ -104,8 +104,8 @@ nav .links a{
   background : .2s ease;
 }
 
-nav .links a.active,
-nav .links a:hover{
+.links a.active,
+.links a:hover{
   color:var(--pink-deep);
   background: var(--blush);
 }
