@@ -73,3 +73,20 @@ header{
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
 }
+
+.nav-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 40px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.brand{
+  font-family: 'Dancinf Script', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--pink-deep);
+
+}
