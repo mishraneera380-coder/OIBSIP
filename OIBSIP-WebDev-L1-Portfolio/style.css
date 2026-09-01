@@ -88,5 +88,34 @@ header{
   font-weight: 700;
   font-size: 2rem;
   color: var(--pink-deep);
+}
 
+nav .links{
+  display: flex;
+  gap: 6px;
+}
+nav .links a{
+  font-size: 0.98rem;
+  font-weight: 2rem;
+  color: var(--pink-deep);
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: color .2s ease ; 
+  background :.2s ease;
+}
+
+nav .links a.active,
+nav .links a:hover{
+  color:var(--pink-deep);
+  background: var(--blush);
+}
+
+.nav cta{
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: var(--white);
+  background: linear-gradient(135 deg, var(--pink), var(--pink-deep));
+  padding: 11px 24px;
+  border-radius: 30px;
+  
 }
