@@ -100,8 +100,8 @@ nav .links a{
   color: var(--pink-deep);
   padding: 8px 16px;
   border-radius: 20px;
-  transition: color .2s ease ; 
-  background :.2s ease;
+  transition: color .2s ease ;
+  background : .2s ease;
 }
 
 nav .links a.active,
@@ -110,12 +110,36 @@ nav .links a:hover{
   background: var(--blush);
 }
 
-.nav cta{
+.nav-cta{
   font-weight: 700;
   font-size: 0.92rem;
   color: var(--white);
-  background: linear-gradient(135 deg, var(--pink), var(--pink-deep));
+  background: linear-gradient( var(--pink), var(--pink-deep));
   padding: 11px 24px;
   border-radius: 30px;
-  
+  box-shadow: 0 6px 16px rgba(198,91,120,0.16) ;
+  transition: transform .2s ease, box-shadow .2s ease;
+  white-space: nowrap;
 }
+.nav-cta:hover{
+  transform: translate(-2px);
+  box-shadow: 0 10px 20px rgba(198,91,120,0.16);
+}
+
+.menu-toggle{
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-toggle span{
+  width: 24px;
+  height: 2px;
+  background: var(--pink-deep);
+  display: block;
+  border-radius: 2px;
+}
+
