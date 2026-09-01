@@ -143,3 +143,178 @@ nav .links a:hover{
   border-radius: 2px;
 }
 
+.hero{
+    position:relative;
+    padding:90px 0 80px;
+    overflow:hidden;
+  }
+  .hero::before{
+    content:'';
+    position:absolute;
+    top:-160px; 
+    right:-160px;
+    width:480px; height:480px; 
+    border-radius:50%;
+    background:radial-gradient(circle, var(--blush-deep), transparent 70%);
+    z-index:0;
+  }
+  .hero::after{
+    content:'';
+    position:absolute; 
+    bottom:-200px; 
+    left:-160px;
+    width:420px; height:420px; 
+    border-radius:50%;
+    background:radial-gradient(circle, var(--lavender), transparent 70%);
+    z-index:0;
+  }
+  .hero .wrap{ 
+    display:flex; 
+    align-items:center; 
+    gap:60px; 
+  }
+  .hero-text{ 
+    flex:1.15; 
+  }
+
+  .badge{
+    display:inline-flex; align-items:center; gap:8px;
+    font-size:0.85rem; font-weight:600;
+    color:var(--pink-deep);
+    background:var(--white);
+    border:1px solid var(--blush-deep);
+    padding:7px 18px; 
+    border-radius:30px;
+    margin-bottom:26px;
+    box-shadow:0 4px 12px rgba(198,91,120,0.12);
+  }
+  .badge .dot{ 
+    width:7px; height:7px; 
+    border-radius:50%; 
+    background:#7fd8a0; 
+    display:inline-block; 
+    animation:pulse 1.8s infinite; 
+  }
+  @keyframes pulse{
+    0%{ box-shadow:0 0 0 0 rgba(127,216,160,.5); }
+    70%{ box-shadow:0 0 0 8px rgba(127,216,160,0); }
+    100%{ box-shadow:0 0 0 0 rgba(127,216,160,0); }
+  }
+
+  .hero-text h1{
+    font-size:3.4rem; 
+    line-height:1.15; 
+    font-weight:700;
+    color:var(--ink); 
+    margin-bottom:14px;
+  }
+  .hero-text h1 .name{ 
+    color:var(--pink-deep); 
+    font-style:italic; 
+  }
+
+  .role-line{
+    font-family:'Dancing Script', cursive;
+    font-size:1.9rem; font-weight:700;
+    color:var(--pink);
+    margin-bottom:22px; min-height:1.4em;
+  }
+  .role-line .cursor{
+    display:inline-block; 
+    width:2px; 
+    height:0.85em;
+    background:var(--pink-deep); 
+    vertical-align:middle;
+    margin-left:2px; 
+    animation:blink 1s step-end infinite;
+  }
+  @keyframes blink{ 
+    50%{ 
+      opacity:0; 
+    }
+   }
+
+  .hero-text h2.lede{
+    font-family:'Quicksand', sans-serif;
+    font-size:1.06rem; 
+    font-weight:500;
+    color:var(--ink-soft); 
+    line-height:1.75;
+    max-width:500px; 
+    margin-bottom:36px;
+  }
+
+  .hero-btns{
+     display:flex; 
+     gap:16px; 
+     flex-wrap:wrap; 
+    }
+  .btn{ 
+    font-weight:700; 
+    font-size:0.96rem; 
+    padding:14px 28px; 
+    border-radius:30px; 
+    transition:all .2s ease; 
+    display:inline-block; 
+  }
+  .btn-solid{ 
+    background:linear-gradient(135deg, var(--pink), var(--pink-deep)); 
+    color:var(--white); 
+    box-shadow:0 8px 18px rgba(198,91,120,0.3); 
+  }
+  .btn-solid:hover{ 
+    transform:translateY(-3px); 
+    box-shadow:0 12px 22px rgba(198,91,120,0.4); 
+  }
+  .btn-ghost{ 
+    border:1.5px solid var(--blush-deep); 
+    color:var(--pink-deep); 
+    background:var(--white); 
+  }
+  .btn-ghost:hover{ 
+    background:var(--blush); 
+    transform:translateY(-3px); 
+  }
+
+  /* profile polaroid */
+  .profile-wrap{
+     flex:1; 
+     display:flex; 
+     justify-content:center; 
+     position:relative; 
+    }
+  .polaroid{
+    background:var(--white);
+    padding:18px 18px 60px;
+    border-radius:6px;
+    box-shadow:0 20px 40px rgba(198,91,120,0.22);
+    transform:rotate(3deg);
+    position:relative;
+  }
+  .tape{
+    position:absolute; 
+    top:-14px; left:50%; 
+    margin-left:-46px;
+    width:92px; height:28px;
+    background:rgba(236,227,251,0.85);
+    border:1px solid rgba(198,91,120,0.15);
+    transform:rotate(-4deg);
+  }
+  .avatar-photo{
+    width:230px; height:270px; border-radius:2px;
+    background:linear-gradient(160deg, #ffd3de, #f3c6e0);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Playfair Display', serif; font-style:italic; font-weight:700;
+    font-size:4.4rem; color:var(--white);
+    text-shadow:0 4px 10px rgba(198,91,120,0.3);
+  }
+  .polaroid .caption{
+    position:absolute; bottom:16px; left:0; right:0; text-align:center;
+    font-family:'Dancing Script', cursive; font-size:1.3rem; color:var(--pink-deep); font-weight:700;
+  }
+
+  /* scallop divider (lace edge) */
+  .scallop{
+    display:block; width:100%; height:32px; position:relative; z-index:2;
+  }
+
