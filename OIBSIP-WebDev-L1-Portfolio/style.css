@@ -148,7 +148,7 @@ header{
     padding:90px 0 80px;
     overflow:hidden;
   }
-  
+
   .hero::before{
     content:'';
     position:absolute;
@@ -158,6 +158,7 @@ header{
     border-radius:50%;
     background:radial-gradient(circle, var(--blush-deep), transparent 70%);
     z-index:0;
+    
   }
   .hero::after{
     content:'';
