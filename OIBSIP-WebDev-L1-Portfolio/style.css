@@ -148,6 +148,7 @@ header{
     padding:90px 0 80px;
     overflow:hidden;
   }
+  
   .hero::before{
     content:'';
     position:absolute;
