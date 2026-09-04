@@ -409,3 +409,45 @@ section{
 .skills{
   background: var(--blush);
 }
+.skills-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px 48px; max-width: 900px; 
+  margin: 0 auto;
+}
+
+.skills-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 9px;
+}
+
+.skills-top .name{
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: var(--ink);
+}
+
+.skills-top .pct{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.25rem;
+  color: var(--pink-deep);
+  font-weight: 700;
+}
+
+.bar-track{
+  width: 100%;
+  height: 11px;
+  border-radius: 20px;
+  background: rgba(198,91,120,0.14);
+  overflow: hidden;
+}
+
+.bar-fill{
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg ,var(--gold), var(--pink));
+  border-radius: 20px;
+  transition: width 1.1s cubic-bezier(.16, .84, .44, 1);
+}
