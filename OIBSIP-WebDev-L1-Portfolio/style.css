@@ -50,7 +50,7 @@ ul{
   width: 14px; height: 14px;
   color: var(--gold);
   opacity: 0;
-  animation: twinkle 3s ease-in-out infinite;
+  animation:twinkle 3s ease-in-out infinite;
   pointer-events: none;
 }
 
@@ -176,27 +176,35 @@ header{
 }
 
 .badge{
-  display:inline-flex; align-items:center; gap:8px;
+  display:inline-flex; 
+  align-items:center; 
+  gap:8px;
   font-size:0.85rem; font-weight:600;
   color:var(--pink-deep);
   background:var(--white);
   border:1px solid var(--blush-deep);
   padding:7px 18px; 
-  border-radius:30px;
+  border-radius:42px;
   margin-bottom:26px;
   box-shadow:0 4px 12px rgba(198,91,120,0.12);
 }
 .badge .dot{ 
-  width:7px; height:7px; 
+  width:8px; height:8px; 
   border-radius:50%; 
   background:#7fd8a0; 
   display:inline-block; 
-  animation:pulse 1.8s infinite; 
+  animation:pulse 1.86s infinite; 
 }
 @keyframes pulse{
-  0%{ box-shadow:0 0 0 0 rgba(127,216,160,.5); }
-  70%{ box-shadow:0 0 0 8px rgba(127,216,160,0); }
-  100%{ box-shadow:0 0 0 0 rgba(127,216,160,0); }
+  0%{ 
+    box-shadow:0 0 0 0 rgba(127,216,160,.5); 
+  }
+  70%{ 
+    box-shadow:0 0 0 8px rgba(127,216,160,0); 
+  }
+  100%{ 
+    box-shadow:0 0 0 0 rgba(127,216,160,0); 
+  }
 }
 
 .hero-text h1{
