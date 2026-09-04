@@ -416,20 +416,20 @@ section{
   margin: 0 auto;
 }
 
-.skills-top{
+.skill-top{
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 9px;
 }
 
-.skills-top .name{
+.skill-top .name{
   font-weight: 700;
   font-size: 1.02rem;
   color: var(--ink);
 }
 
-.skills-top .pct{
+.skill-top .pct{
   font-family: 'Dancing Script', cursive;
   font-size: 1.25rem;
   color: var(--pink-deep);
