@@ -307,7 +307,7 @@ header{
   transform:rotate(-4deg);
 }
 .avatar-photo{
-  width:230px; height:270px; border-radius:4px;
+  width:230px; height:278px; border-radius:4px;
   background:linear-gradient(160deg, #ffd3de, #f3c6e0);
   display:flex; 
   align-items:center; 
@@ -404,4 +404,8 @@ section{
   stroke:var(--pink-deep); 
   fill:none; 
   stroke-width:1.5; 
+}
+
+.skills{
+  background: var(--blush);
 }
