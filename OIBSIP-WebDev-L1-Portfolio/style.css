@@ -92,11 +92,11 @@ header{
 
 .links{
   display: flex;
-  gap: 6px;
+  gap: 10px;
 }
 .links a{
   font-size: 0.98rem;
-  font-weight: 2rem;
+  font-weight: 600;
   color: var(--pink-deep);
   padding: 8px 16px;
   border-radius: 22px;
@@ -123,10 +123,6 @@ header{
   box-shadow: 0 10px 20px rgba(198,91,120,0.16);
 }
 
-.links{
-  display: flex;
-  gap: 10px;
-}
 
 #menu-toggle{ 
   display:none;
@@ -689,35 +685,32 @@ footer p{
   .nav-inner{ 
     padding:16px 24px; 
   }
+  
+  .menu-icon{
+    display: flex;
+  }
+  #menu-toggle:checked ~ .links{
+    display: flex;
+    animation: slideDown 0.3s ease forwards;
+  }
 
   .links{
     position: absolute;
     display: none;
     flex-direction: column;
     background: var(--blush);
-    padding:20px;
+    padding:12px;
     top: 62px;
     left: 0; right: 0;
-    border-radius: 8px;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    animation: slideDown 0.3s ease forwards;
+    border-radius: 0.8px;
   }
 
-  /* .links{
-    position:absolute;
-    top:62px; left:0; right:0;
-    background:var(--pink-deep);
-    border-top: .1rem solid rgba(198,91,120,0.3);
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    transition: clip-path 0.3s ease-out;
-    
-  } */
 
   .links a{
-    margin: 1.2rem;
-    padding: 1.2rem;
-    background:var(--pink-deep);
-    border:.1rem solid rgba(198,91,120,0.08);
+    margin: 0.2rem;
+    padding: 0.7rem;
+    background:var(--white);
+    border:.1.2px solid rgba(198,91,120,0.08);
     display:block;
   }
 
@@ -733,19 +726,11 @@ footer p{
     
   }
   
-  .menu-icon{
-    display: flex;
-  }
-
-  #menu-toggle:checked ~ .links{
-    display: flex;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
 
   .nav-cta.desktop-only{ 
     display:none; 
   }
-  nav.links{
+  /* nav.links{
     position:fixed; 
     top:66px; left:0; right:0;
     background:var(--white);
@@ -754,24 +739,21 @@ footer p{
     overflow:hidden;
     transition:max-height .3s ease;
     border-bottom:1px solid var(--line);
-  }
-  nav.links.open{ 
+  } */
+  /* nav.links.open{ 
     max-height:320px; 
-  }
-  nav.links a{ 
+  } */
+  /* nav.links a{ 
     padding:16px 24px; 
     border-radius:0; 
     border-top:1px solid var(--line); 
-  }
+  } */
 
   .hero{ 
     padding:56px 0 60px; 
   }
   .hero-text h1{ 
     font-size:2.5rem; 
-  }
-  .polaroid{ 
-    transform:rotate(2deg); 
   }
   .avatar-photo{ 
     width:190px; 
