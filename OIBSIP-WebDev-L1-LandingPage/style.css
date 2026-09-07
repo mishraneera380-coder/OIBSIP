@@ -65,9 +65,7 @@ header .logo{
   color:black;
   text-decoration: none;
   display: inline;
-
-
- }
+}
  header .navbar a:hover{
   color:#834304;
   text-decoration: solid burlywood;
