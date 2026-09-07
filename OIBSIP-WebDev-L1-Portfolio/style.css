@@ -710,7 +710,7 @@ footer p{
     margin: 0.2rem;
     padding: 0.7rem;
     background:var(--white);
-    border:.1.2px solid rgba(198,91,120,0.08);
+    border:1.2px solid rgba(198,91,120,0.08);
     display:block;
   }
 
@@ -730,24 +730,6 @@ footer p{
   .nav-cta.desktop-only{ 
     display:none; 
   }
-  /* nav.links{
-    position:fixed; 
-    top:66px; left:0; right:0;
-    background:var(--white);
-    flex-direction:column;
-    max-height:0; 
-    overflow:hidden;
-    transition:max-height .3s ease;
-    border-bottom:1px solid var(--line);
-  } */
-  /* nav.links.open{ 
-    max-height:320px; 
-  } */
-  /* nav.links a{ 
-    padding:16px 24px; 
-    border-radius:0; 
-    border-top:1px solid var(--line); 
-  } */
 
   .hero{ 
     padding:56px 0 60px; 
