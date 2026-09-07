@@ -123,21 +123,27 @@ header{
   box-shadow: 0 10px 20px rgba(198,91,120,0.16);
 }
 
-.menu-toggle{
-  display: none;
-  flex-direction: column;
-  gap: 5px;
-  background: none;
-  border: none;
-  cursor: pointer;
+.links{
+  display: flex;
+  gap: 10px;
 }
 
-.menu-toggle span{
-  width: 24px;
-  height: 2px;
+#menu-toggle{ 
+  display:none;
+}
+
+.menu-icon{
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+.menu-icon span{
+  width: 25px;
+  height: 3px;
   background: var(--pink-deep);
-  display: block;
   border-radius: 2px;
+  transition: all 0.3s ease;
 }
 
 .hero{
@@ -589,23 +595,6 @@ section{
   font-family: 'Playfair Display', serif;
 }
 
-/* .email-link {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-size: 1.2rem;
-  color: var(--white);
-  background: linear-gradient(135deg, var(--pink), var(--pink-deep));
-  padding: 16px 36px;
-  border-radius: 40px;
-  display: inline-block;
-  margin-bottom: 42px;
-  box-shadow: 0 12px 26px rgba(198,91,120,0.3);
-  transition: transform .2s ease;
-}
-
-.email-link:hover {
-  transform: translateY(-3px);
-} */
 
 .social-row {
   display: flex;
@@ -669,6 +658,11 @@ footer p{
     margin-left:auto; 
     margin-right:auto; 
   }
+
+  .links{
+    display: flex;
+    gap: 10px;
+  }
   .hero-btns{ 
     justify-content:center; 
   }
@@ -691,9 +685,36 @@ footer p{
   .nav-inner{ 
     padding:16px 24px; 
   }
-  .menu-toggle{ 
-    display:flex; 
+
+  .links{
+    display: none;
+    flex-direction: column;
+    background: var(--blush);
+    padding:20px;
+    border-radius: 8px;
+    animation: slideDown 0.3s ease forwards;
   }
+
+  @keyframes slideDown {
+    from{
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+  }
+  
+  .menu-icon{
+    display: flex;
+  }
+
+  #menu-toggle:checked ~ .links{
+    display: flex;
+  }
+
   .nav-cta.desktop-only{ 
     display:none; 
   }
