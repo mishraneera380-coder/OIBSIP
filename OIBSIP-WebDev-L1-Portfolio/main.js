@@ -1,4 +1,4 @@
-<script>
+
   // Mobile nav toggle
   const menuToggle = document.getElementById('menuToggle');
   const navLinks = document.getElementById('navLinks');
@@ -59,4 +59,3 @@
     setTimeout(typeLoop, deleting ? 40 : 80);
   }
   typeLoop();
-</script>
