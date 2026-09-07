@@ -290,7 +290,7 @@ header{
   position:relative; 
 }
 .polaroid{
-  background:var(--white);
+  background:var(--blush);
   padding:18px 18px 60px;
   border-radius:10px;
   box-shadow:0 20px 40px rgba(198,91,120,0.22);
@@ -307,18 +307,30 @@ header{
   transform:rotate(-4deg);
 }
 .avatar-photo{
-  width:230px; height:278px; border-radius:4px;
-  background:linear-gradient(160deg, #ffd3de, #f3c6e0);
-  display:flex; 
-  align-items:center; 
-  justify-content:center;
-  font-family:'Playfair Display', serif; font-style:italic; font-weight:700;
-  font-size:4.4rem; color:var(--white);
-  text-shadow:0 4px 10px rgba(198,91,120,0.3);
+  width:440px; 
+  height: 499px; 
+  border-radius:4px;
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar-photo img{
+  width:100%;
+  height: 400;
+  border-color: var(--ink);
+  object-fit: cover;
+  object-position: top;
 }
 .polaroid .caption{
-  position:absolute; bottom:16px; left:0; right:0; text-align:center;
-  font-family:'Dancing Script', cursive; font-size:1.8rem; color:var(--pink-deep); font-weight:700;
+  position:absolute; 
+  bottom:16px; left:0; right:0; 
+  text-align:center;
+  font-family:'Dancing Script', cursive; 
+  font-size:1.8rem; 
+  color:var(--ink); 
+  font-weight:700;
 }
 
   /* scallop divider (lace edge) */
