@@ -546,6 +546,7 @@ section{
   font-weight: 700;
   font-size: 1.02rem;
   color: var(--ink);
+  font-family: 'Playfair Display', serif;
 
 }
 
@@ -555,6 +556,7 @@ section{
   font-size:1.02rem ;
   margin-bottom: 6px;
   color: var(--ink);
+  font-family: 'Playfair Display', serif; 
 }
 
 .contact-form input,
@@ -563,8 +565,8 @@ section{
   padding: 12px;
   border: 1px solid var(--blush-deep);
   border-radius: 8px;
-  font-family: inherit;
   font-size: 1rem;
+  font-family: 'Playfair Display', serif; 
 }
 
 .contact-form button {
@@ -579,10 +581,12 @@ section{
   font-size: 1rem;
   color: var(--white);
   transition: transform .2s ease-in-out;
+  font-family: 'Playfair Display', serif;
 }
 
 .contact-form button:hover {
   transform: translateY(-2.8px);
+  font-family: 'Playfair Display', serif;
 }
 
 /* .email-link {
@@ -654,4 +658,87 @@ footer{
 footer p{ 
   font-size:0.85rem; 
   color:var(--ink-soft); 
+}
+
+@media (max-width:900px){
+  .hero .wrap{ 
+    flex-direction:column-reverse; 
+    text-align:center; 
+    gap:44px; }
+  .hero-text h2.lede{ 
+    margin-left:auto; 
+    margin-right:auto; 
+  }
+  .hero-btns{ 
+    justify-content:center; 
+  }
+  .about-body{ 
+    flex-direction:column-reverse; 
+    text-align:center; 
+  }
+  .project-grid{ 
+    grid-template-columns:1fr; 
+  }
+  .skills-grid{ 
+    grid-template-columns:1fr; 
+  }
+}
+
+@media (max-width:768px){
+  .wrap{ 
+    padding:0 24px; 
+  }
+  .nav-inner{ 
+    padding:16px 24px; 
+  }
+  .menu-toggle{ 
+    display:flex; 
+  }
+  .nav-cta.desktop-only{ 
+    display:none; 
+  }
+  nav.links{
+    position:fixed; 
+    top:66px; left:0; right:0;
+    background:var(--white);
+    flex-direction:column;
+    max-height:0; 
+    overflow:hidden;
+    transition:max-height .3s ease;
+    border-bottom:1px solid var(--line);
+  }
+  nav.links.open{ 
+    max-height:320px; 
+  }
+  nav.links a{ 
+    padding:16px 24px; 
+    border-radius:0; 
+    border-top:1px solid var(--line); 
+  }
+
+  .hero{ 
+    padding:56px 0 60px; 
+  }
+  .hero-text h1{ 
+    font-size:2.5rem; 
+  }
+  .polaroid{ 
+    transform:rotate(2deg); 
+  }
+  .avatar-photo{ 
+    width:190px; 
+    height:220px; 
+    font-size:3.4rem; 
+  }
+
+  section{ 
+    padding:70px 0; 
+  }
+  .sec-head h2{ 
+    font-size:1.9rem; 
+  }
+  .email-link{ 
+    font-size:1.2rem; 
+    word-break:break-all; 
+  }
 }

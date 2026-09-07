@@ -1,8 +1,8 @@
 
   // Mobile nav toggle
-  const menuToggle = document.getElementById('menuToggle');
-  const navLinks = document.getElementById('navLinks');
-  menuToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  const menutoggle = document.getElementById('menuToggle');
+  const navlinks = document.getElementById('navlinks');
+  menutoggle.addEventListener('click', () => navlinks.classList.toggle('open'));
   document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => navLinks.classList.remove('open'));
   });
