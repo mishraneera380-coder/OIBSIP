@@ -36,10 +36,8 @@ OIBSIP-WebDevelopment&Designing-Level1-LandingPage/
 - [x] Clean typography & spacing  
 
 ## Preview
-<<<<<<< HEAD
 
-=======
->>>>>>> b58d1e896a416977e7c1a82cb66b4827cee20de2
+![alt text](<Screenshot 2026-09-08 001803.png>)
 
 ## Inspiration
 - Layout ideas from **Dribbble** and **Awwwards**  
