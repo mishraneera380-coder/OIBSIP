@@ -31,5 +31,37 @@ body{
 
 h1,h2{
     font-family: 'Poppins', sans-serif;
-    
+}
+
+.card{
+    width:100%;
+    max-width:480px;
+    background:var(--white);
+    border-radius:20px;
+    padding:44px 40px 40px;
+    box-shadow:0 24px 60px rgba(31,39,51,0.12);
+}
+
+.card-head{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.card-head h1{
+    font-size: 1.65rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 8px;
+}
+
+.card-head p{
+    font-size: 0.92rem;
+    color: var(--ink-soft);
+}
+label.field-label{
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 8px;
 }
