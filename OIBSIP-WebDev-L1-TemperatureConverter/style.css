@@ -65,3 +65,42 @@ label.field-label{
     color: var(--ink);
     margin-bottom: 8px;
 }
+
+.input-row{ 
+    margin-bottom:22px; 
+}
+#tempInput{
+    width:100%;
+    font-family:'Inter', sans-serif;
+    font-size:1.15rem;
+    font-weight:500;
+    padding:14px 16px;
+    border:2px solid var(--line);
+    border-radius:12px;
+    outline:none;
+    transition:border-color .2s ease, box-shadow .2s ease;
+    color:var(--ink);
+}
+#tempInput:focus{ 
+    border-color:var(--cold); 
+    box-shadow:0 0 0 4px rgba(79,131,204,0.12); 
+}
+#tempInput.input-error{ 
+    border-color:var(--error); 
+    animation:shake .35s ease; 
+}
+#tempInput.input-error:focus{ 
+    box-shadow:0 0 0 4px rgba(214,69,69,0.12); 
+}
+
+@keyframes shake{
+   0%,100%{ 
+    transform:translateX(0); 
+ }
+   25%{ 
+    transform:translateX(-6px); 
+ }
+   75%{ 
+    transform:translateX(6px); 
+ }
+}
