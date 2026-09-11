@@ -25,7 +25,21 @@
 
         <div class="unit-row">
             <label class="field-label">Input Unit</label>
+            <div class="segmented">
+                <input type="radio" name="unit" id="unitC" value="C" checked>
+                <label for="unitC">°C</label>
+                <input type="radio" name="unit" id="unitF" value="F">
+                <label for="unitF">°F</label>
+                <input type="radio" name="unit" id="unitK" value="K">
+                <label for="unitK">K</label>
+            </div>
         </div>
-    </div>
+
+        <button class="convert-btn" id="convertBtn">Convert</button>
+
+        <div class="abs-zero-msg" id="absZeroMsg"></div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4M12 17h.01M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg>
+          <span>That's below absolute zero (−273.15°C) — the coldest temperature physically possible. Please enter a value at or above that.</span>
+        </div>
 </body>
 </html>
