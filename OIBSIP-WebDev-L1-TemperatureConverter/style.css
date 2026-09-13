@@ -70,28 +70,28 @@ h1,h2{
     margin-bottom:22px; 
 }
 
-.tempInput{
-    width:110%;
+#tempInput{
+    width:100%;
     font-family:'Inter', sans-serif;
-    font-size:1.4rem;
+    font-size:1.12rem;
     font-weight:500;
-    padding:20px 18px;
+    padding:18px 12px;
     border:2px solid var(--line);
-    border-radius :16px;
+    border-radius :14px;
     outline:none;
     transition:border-color .2s ease, box-shadow .2s ease;
     color:var(--ink);
 }
 
-.tempInput:focus{ 
+#tempInput:focus{ 
     border-color:var(--cold); 
     box-shadow:0 0 0 4px rgba(79,131,204,0.12); 
 }
-.tempInput.input-error{ 
+#tempInput.input-error{ 
     border-color:var(--error); 
     animation:shake .35s ease; 
 }
-.tempInput.input-error:focus{ 
+#tempInput.input-error:focus{ 
     box-shadow:0 0 0 4px rgba(214,69,69,0.12); 
 }
 
