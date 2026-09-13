@@ -200,3 +200,30 @@ label.field-label{
     transition:opacity .35s ease, transform .35s ease, border-color .2s ease;
 }
 
+.result-card.filled{ 
+    pacity:1; 
+    transform:translateY(0); 
+}
+
+.result-card.active-unit{ 
+    border-color:var(--cold); 
+    background:#eef4fc; 
+}
+.result-card .icon{ 
+    font-size:1.3rem; 
+    margin-bottom:6px; 
+    display:block; 
+}
+.result-card .value{ 
+    font-family:'Poppins',sans-serif; 
+    font-size:1.25rem; 
+    font-weight:700; 
+    color:var(--ink); 
+    word-break:break-word; 
+}
+.result-card .unit-label{ 
+    font-size:0.78rem; 
+    color:var(--ink-soft); 
+    margin-top:4px; 
+    font-weight:500; 
+}
