@@ -69,7 +69,7 @@ label.field-label{
 .input-row{ 
     margin-bottom:22px; 
 }
-#tempInput{
+.tempInput{
     width:100%;
     font-family:'Inter', sans-serif;
     font-size:1.15rem;
@@ -81,15 +81,15 @@ label.field-label{
     transition:border-color .2s ease, box-shadow .2s ease;
     color:var(--ink);
 }
-#tempInput:focus{ 
+.tempInput:focus{ 
     border-color:var(--cold); 
     box-shadow:0 0 0 4px rgba(79,131,204,0.12); 
 }
-#tempInput.input-error{ 
+.tempInput.input-error{ 
     border-color:var(--error); 
     animation:shake .35s ease; 
 }
-#tempInput.input-error:focus{ 
+.tempInput.input-error:focus{ 
     box-shadow:0 0 0 4px rgba(214,69,69,0.12); 
 }
 
