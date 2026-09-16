@@ -60,6 +60,6 @@ Temperature-Converter/
 ---
 
 ## Preview
-*()*
+[Live Demo](https://mishraneera380-coder.github.io/Temperature-Converter/)
 
 
